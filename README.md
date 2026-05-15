@@ -15,16 +15,6 @@ Collaborative **academic** work by **three students**, submitted as the **final 
 - **Java standard library** — files, threads, `Scanner` for console input
 - **`MediaPlayerDemo.java`** — separate **Swing** demo using **Java Media Framework** (JMF); comment in file notes JMF must be installed for that demo
 
-## Running the project
-
-There is **no** Maven/Gradle file or vendored JAR in this snapshot. To try the main prototype:
-
-1. Add **JL/MP3 (JLayer)** to the classpath so `import javazoom.jl.player.*` resolves.
-2. Open `EasyPlay_12_9/main/PlayerTest.java` and **replace the hard-coded music folder path** (it currently points at a developer-specific Windows path).
-3. Compile the `EasyPlay_12_9` sources with correct package structure and run `main.PlayerTest`.
-
-`MediaPlayerDemo.java` is standalone; follow JMF setup if that file is run.
-
 ## Status
 
 **Archived — not maintained.** Preserved as submitted coursework; expect rough edges, deprecated APIs (e.g. `Thread.suspend`/`resume` in `PlayerTest`), and paths tied to the original development machine.
